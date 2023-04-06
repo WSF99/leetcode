@@ -2,8 +2,6 @@
 
 class Solution:
     def count_and_say(self, n: int) -> str:
-        if n < 1 or n > 30:
-            return ""
         if n == 1:
             return "1"
         say = self.countAndSay(n - 1)
